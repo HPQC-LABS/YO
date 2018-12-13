@@ -1,0 +1,27 @@
+ 
+ '1X ' -2  0   30  999  0       % (1)SLABL IOMEG VMIN VMAX JTRUNC EFSEL
+  2      0.0000  2  0  1        % PSEL VLIM MAXMIN BOBCN OSEL
+   1.40  10.00  0.0010          % RMIN RMAX RH
+ 
+  3   1.00 -2  1                % NCMM RHOab IDF IDSTT
+  6   3.51814704D+06  1         % MMLR(1), CmVAL(1), IFXCm(1)
+  8   4.72347299D+07  1         % MMLR(2), CmVAL(2), IFXCm(2)
+ 10   6.81240775D+04  1         % MMLR(3), CmVAL(3), IFXCm(3)
+
+  2.664082312616D+04  0         % De  IFXDe
+  1.789999840539D+00  0         % Re  IFXRe
+
+  0  8*******   1.79D+00        % NSR Nbeta nPB nQB RREF
+  4.716740436431D-01  0         % BETA 0  IFXBETA 0
+  2.282373421211D+00  0         % BETA 1  IFXBETA 1
+  6.095106793466D+00  0         % BETA 2  IFXBETA 2
+  1.086406540125D+01  0         % BETA 3  IFXBETA 3
+  1.150949385965D+01  0         % BETA 4  IFXBETA 4
+  8.481358133026D+01  0         % BETA 5  IFXBETA 5
+  5.837837982110D+02  0         % BETA 6  IFXBETA 6
+  1.518698900068D+03  0         % BETA 7  IFXBETA 7
+  1.374016154619D+03  0         % BETA 8  IFXBETA 8
+
+ -1 -1*******                   % NUA NUB  pAD qAD
+
+ -1 -1*******                   % NTA NTB  pNA qNA

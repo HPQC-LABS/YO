@@ -1,0 +1,1657 @@
+  Input data for  1  isotopomer(s)
+  ********************************
+      Isotopomer       Mass of atom-1   Mass of atom-2    Reduced mass
+  -----------------    --------------   --------------   --------------
+   Y( 89) -  O( 16)     88.905840300     15.994914620     13.556063785
+
+ Use experimental data input file:  ./abInitio3.4                 
+ Uncertainties for transitions involving quasibound levels modified to:
+                    SQRT{(u(i;exp)**2 + ( 0.20*width)**2}
+ Fit uses standard  1/[uncertainty(i)]**2  data weighting
+ Non-linear fits are allowed a maximum of  CYCMAX= 100 cycles
+
+ For state   1X 
+    integrate from   RMIN= 1.40   to   RMAX= 10.00   with mesh   RH= 0.00100
+ ==============================================================================
+
+ State 1X  represented by an MLR(p=**, q=**) potential defined in terms of
+ ========  exponent coefficient:  beta(R)= betaINF*y* +(1-y*)*Sum{beta_i*y*^i}
+                                                              for  i= 0 to  8
+        with radial variable:   y_{p,q} = (R^q - 1.790000^q)/(R^q + 1.790000^q)
+    uLR inverse-power terms incorporate DS-type damping with   rhoAB= 1.0000000
+           defined to give very short-range  Dm(r)*Cm/r^m  behaviour   r^{-1.0}
+        Dm(r)= [1 - exp(- 3.30(rhoAB*r)/m - 0.423(rhoAB*r)^2/sqrt{m})]^{m-1.0}
+                                                C6= 3.5181470D+06[cm-1 Ang^6]
+                                                C8= 4.7234730D+07[cm-1 Ang^8]
+                                               C10= 6.8124077D+04[cm-1 Ang^{10}]
+                    These constants yield:   betaINF= -0.2776503676
+
+    Since this state has (projected) electronic angular momentum  OMEGA=-2
+          eigenvalue calculations use centrifugal potential  [J*(J+1) - 4]/r**2
+
+ Including BOB term makes centrifugal potential strength factor   [J(J+1) + 2]
+
+   Parameter    Initial Value    Uncertainty   Sensitivity
+    VLIM      0.000000000000D+00       --            --
+      De      2.664774140795D+04    0.0D+00       0.0D+00
+      Re      1.789941762938D+00    0.0D+00       0.0D+00
+     C 6      3.518147035378D+06       --            --
+     C 8      4.723472990366D+07       --            --
+     C10      6.812407747000D+04       --            --
+   beta( 0)   4.889294027542D-01    0.0D+00       0.0D+00
+   beta( 1)   2.377831779686D+00    0.0D+00       0.0D+00
+   beta( 2)   4.811599812625D+00    0.0D+00       0.0D+00
+   beta( 3)   2.524903517869D+00    0.0D+00       0.0D+00
+   beta( 4)   3.258333347875D+01    0.0D+00       0.0D+00
+   beta( 5)   2.709651612762D+02    0.0D+00       0.0D+00
+   beta( 6)   5.934105854213D+02    0.0D+00       0.0D+00
+   beta( 7)   2.907892374761D+02    0.0D+00       0.0D+00
+  *beta( 8)   0.000000000000D+00    0.0D+00       0.0D+00
+   beta_INF  -2.776503675927D-01       --            --
+   C**{exp}  -1.549455186000D+11       --            --
+ ==============================================================================
+
+ Neglect data with:  Uncertainties > UCUTOFF=  9.99D+02 (cm-1)
+       and State 1X  data with  J > JTRUNC= 999
+                             or  v  outside range  0  to  30   for   ISOT= 1
+
+ NOTE that read-in potential fx. values for   ISTATE= 1   ISOT= 1
+                                 must be input as a single "band" or data group
+ State 1X   Energy Convergence criterion EPS is 1.0D-06 cm-1
+ Find  2  potential minima:   Vmin= -26646.965     -5.064
+               at mesh points   R =    1.79000    7.70300
+ Find  2  potential maxima:   Vmax=      0.250     -2.620
+               at mesh points   R =    3.07800   10.00000
+ *** CAUTION *** For  J=  0  E= -18671.028    
+                WF(first)/WF(Max)=-0.11D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17849.548    
+                WF(first)/WF(Max)= 0.27D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17028.797    
+                WF(first)/WF(Max)=-0.66D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16208.587    
+                WF(first)/WF(Max)= 0.15D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15388.894    
+                WF(first)/WF(Max)=-0.34D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14569.839    
+                WF(first)/WF(Max)= 0.74D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13751.681    
+                WF(first)/WF(Max)=-0.16D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12934.798    
+                WF(first)/WF(Max)= 0.32D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12119.683    
+                WF(first)/WF(Max)=-0.63D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11306.940    
+                WF(first)/WF(Max)= 0.12D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10497.284    
+                WF(first)/WF(Max)=-0.23D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9691.5505    
+                WF(first)/WF(Max)= 0.42D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8890.7035    
+                WF(first)/WF(Max)=-0.74D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8095.8590    
+                WF(first)/WF(Max)= 0.13D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7308.3120    
+                WF(first)/WF(Max)=-0.21D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6529.5788    
+                WF(first)/WF(Max)= 0.35D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5761.4563    
+                WF(first)/WF(Max)=-0.56D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5006.1077    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4266.1901    
+                WF(first)/WF(Max)=-0.13D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3545.0503    
+                WF(first)/WF(Max)= 0.19D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2847.0409    
+                WF(first)/WF(Max)=-0.27D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2178.0644    
+                WF(first)/WF(Max)= 0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18671.028    
+                WF(first)/WF(Max)= 0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17849.548    
+                WF(first)/WF(Max)= 0.29D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17028.797    
+                WF(first)/WF(Max)= 0.74D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16208.587    
+                WF(first)/WF(Max)= 0.17D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15388.894    
+                WF(first)/WF(Max)= 0.39D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14569.839    
+                WF(first)/WF(Max)= 0.85D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13751.681    
+                WF(first)/WF(Max)= 0.17D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12934.798    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12119.683    
+                WF(first)/WF(Max)= 0.72D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11306.940    
+                WF(first)/WF(Max)= 0.14D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10497.284    
+                WF(first)/WF(Max)= 0.26D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9691.5505    
+                WF(first)/WF(Max)= 0.48D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8890.7035    
+                WF(first)/WF(Max)= 0.85D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8095.8590    
+                WF(first)/WF(Max)= 0.15D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7308.3120    
+                WF(first)/WF(Max)= 0.25D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6529.5788    
+                WF(first)/WF(Max)= 0.42D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5761.4563    
+                WF(first)/WF(Max)= 0.67D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5006.1077    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4266.1901    
+                WF(first)/WF(Max)= 0.16D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3545.0503    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2847.0409    
+                WF(first)/WF(Max)= 0.36D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2178.0644    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ After Cycle # 1:  DRMSD= 8.8103034D-02    test(PS)= 1.6D+04   test(PU)= 4.4D-01
+   PV(   1) =  2.66408690077514D+04 (+/- 3.1D+01)    PS= 2.7D-01   PC= -6.9D+00
+   PV(   2) =  1.78996746699745D+00 (+/- 9.6D-04)    PS= 1.7D-06   PC=  2.6D-05
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71879101639743D-01 (+/- 3.8D-02)    PS= 1.3D-05   PC= -1.7D-02
+   PV(   7) =  2.28077435442044D+00 (+/- 4.6D-01)    PS= 5.4D-05   PC= -9.7D-02
+   PV(   8) =  6.06356949463603D+00 (+/- 3.0D+00)    PS= 2.1D-04   PC=  1.3D+00
+   PV(   9) =  1.08865999165457D+01 (+/- 2.4D+01)    PS= 8.2D-04   PC=  8.4D+00
+   PV(  10) =  1.26466787098687D+01 (+/- 8.7D+01)    PS= 3.1D-03   PC= -2.0D+01
+   PV(  11) =  8.61214033001775D+01 (+/- 5.0D+02)    PS= 1.2D-02   PC= -1.8D+02
+   PV(  12) =  5.71996906951508D+02 (+/- 9.8D+02)    PS= 4.3D-02   PC= -2.1D+01
+   PV(  13) =  1.49779843983792D+03 (+/- 3.7D+03)    PS= 1.6D-01   PC=  1.2D+03
+   PV(  14) =  1.38564384764465D+03 (+/- 6.6D+03)    PS= 5.5D-01   PC=  1.4D+03
+ Find  2  potential minima:   Vmin= -26640.093     -1.170
+               at mesh points   R =    1.79000    9.83600
+ Find  2  potential maxima:   Vmax=      0.310     -1.165
+               at mesh points   R =    2.80600   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.321    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17843.037    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.986    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.767    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15385.106    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.865    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13749.043    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.770    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12115.306    
+                WF(first)/WF(Max)=-0.74D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11300.039    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10486.490    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9675.3116    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8867.3056    
+                WF(first)/WF(Max)=-0.90D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8063.4376    
+                WF(first)/WF(Max)= 0.15D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7264.8665    
+                WF(first)/WF(Max)=-0.26D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6472.9860    
+                WF(first)/WF(Max)= 0.45D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5689.4866    
+                WF(first)/WF(Max)=-0.71D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4916.4497    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4156.4921    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3413.0012    
+                WF(first)/WF(Max)= 0.26D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2690.5376    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1995.5881    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.321    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17843.037    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.986    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.767    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15385.106    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.865    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13749.043    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.770    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12115.306    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11300.039    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10486.490    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9675.3116    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8867.3056    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8063.4376    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7264.8665    
+                WF(first)/WF(Max)= 0.32D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6472.9860    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5689.4866    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4916.4497    
+                WF(first)/WF(Max)= 0.13D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4156.4921    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3413.0012    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2690.5376    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1995.5881    
+                WF(first)/WF(Max)= 0.68D-03  suggests  RMIN  may be too large
+ After Cycle # 2:  DRMSD= 1.3573471D-02    test(PS)= 2.4D+03   test(PU)= 1.1D-01
+   PV(   1) =  2.66408229101951D+04 (+/- 4.7D+00)    PS= 4.1D-02   PC= -4.6D-02
+   PV(   2) =  1.78998407273928D+00 (+/- 1.5D-04)    PS= 2.7D-07   PC=  1.7D-05
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71660326914108D-01 (+/- 6.0D-03)    PS= 2.0D-06   PC= -2.2D-04
+   PV(   7) =  2.28231227385366D+00 (+/- 7.1D-02)    PS= 8.3D-06   PC=  1.5D-03
+   PV(   8) =  6.09499845320373D+00 (+/- 4.8D-01)    PS= 3.3D-05   PC=  3.1D-02
+   PV(   9) =  1.08644137645841D+01 (+/- 3.7D+00)    PS= 1.3D-04   PC= -2.2D-02
+   PV(  10) =  1.15104605289187D+01 (+/- 1.4D+01)    PS= 4.8D-04   PC= -1.1D+00
+   PV(  11) =  8.48034876947898D+01 (+/- 8.1D+01)    PS= 1.8D-03   PC= -1.3D+00
+   PV(  12) =  5.83741422323866D+02 (+/- 1.5D+02)    PS= 6.6D-03   PC=  1.2D+01
+   PV(  13) =  1.51867424654070D+03 (+/- 6.2D+02)    PS= 2.4D-02   PC=  2.1D+01
+   PV(  14) =  1.37406948729754D+03 (+/- 1.1D+03)    PS= 8.5D-02   PC= -1.2D+01
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.379    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17843.118    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17023.077    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.843    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15385.138    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.818    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.877    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.442    
+                WF(first)/WF(Max)= 0.38D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.771    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11299.252    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.402    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.8768    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.4780    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8061.1728    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7262.1225    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.7239    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.6720    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4912.0545    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.4971    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.4008    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2684.3478    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.8628    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.379    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17843.118    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17023.077    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.843    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15385.138    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.818    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.877    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.442    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.771    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11299.252    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.402    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.8768    
+                WF(first)/WF(Max)= 0.58D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.4780    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8061.1728    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7262.1225    
+                WF(first)/WF(Max)= 0.32D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.7239    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.6720    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4912.0545    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.4971    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.4008    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2684.3478    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.8628    
+                WF(first)/WF(Max)= 0.69D-03  suggests  RMIN  may be too large
+ After Cycle # 3:  DRMSD= 1.1738147D-02    test(PS)= 3.5D+01   test(PU)= 6.3D-02
+   PV(   1) =  2.66408230861703D+04 (+/- 4.1D+00)    PS= 3.5D-02   PC=  1.8D-04
+   PV(   2) =  1.78999216860316D+00 (+/- 1.3D-04)    PS= 2.3D-07   PC=  8.1D-06
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71667390263260D-01 (+/- 5.2D-03)    PS= 1.8D-06   PC=  7.1D-06
+   PV(   7) =  2.28234766606073D+00 (+/- 6.1D-02)    PS= 7.1D-06   PC=  3.5D-05
+   PV(   8) =  6.09507042367722D+00 (+/- 4.2D-01)    PS= 2.8D-05   PC=  7.2D-05
+   PV(   9) =  1.08640674310991D+01 (+/- 3.2D+00)    PS= 1.1D-04   PC= -3.5D-04
+   PV(  10) =  1.15090090707659D+01 (+/- 1.2D+01)    PS= 4.2D-04   PC= -1.5D-03
+   PV(  11) =  8.48099091862354D+01 (+/- 7.0D+01)    PS= 1.6D-03   PC=  6.4D-03
+   PV(  12) =  5.83776423771891D+02 (+/- 1.3D+02)    PS= 5.7D-03   PC=  3.5D-02
+   PV(  13) =  1.51869952189099D+03 (+/- 5.3D+02)    PS= 2.1D-02   PC=  2.5D-02
+   PV(  14) =  1.37402699389730D+03 (+/- 9.3D+02)    PS= 7.4D-02   PC= -4.2D-02
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.316    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17843.047    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.998    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.756    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15385.043    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.715    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.766    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.322    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.643    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11299.115    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.257    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.7243    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.3179    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8061.0055    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.9484    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.5435    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.4860    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.8637    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.3027    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.2040    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2684.1506    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.6680    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.316    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17843.047    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.998    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.756    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15385.043    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.715    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.766    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.322    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.643    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11299.115    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.257    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.7243    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.3179    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8061.0055    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.9484    
+                WF(first)/WF(Max)= 0.32D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.5435    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.4860    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.8637    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.3027    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.2040    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2684.1506    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.6680    
+                WF(first)/WF(Max)= 0.69D-03  suggests  RMIN  may be too large
+ After Cycle # 4:  DRMSD= 1.0661509D-02    test(PS)= 1.9D+01   test(PU)= 3.3D-02
+   PV(   1) =  2.66408231160196D+04 (+/- 3.7D+00)    PS= 3.2D-02   PC=  3.0D-05
+   PV(   2) =  1.78999610835317D+00 (+/- 1.2D-04)    PS= 2.1D-07   PC=  3.9D-06
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71670807087943D-01 (+/- 4.7D-03)    PS= 1.6D-06   PC=  3.4D-06
+   PV(   7) =  2.28236089824986D+00 (+/- 5.6D-02)    PS= 6.5D-06   PC=  1.3D-05
+   PV(   8) =  6.09508915064130D+00 (+/- 3.8D-01)    PS= 2.6D-05   PC=  1.9D-05
+   PV(   9) =  1.08640661983139D+01 (+/- 2.9D+00)    PS= 9.9D-05   PC= -1.2D-06
+   PV(  10) =  1.15092555623534D+01 (+/- 1.1D+01)    PS= 3.8D-04   PC=  2.5D-04
+   PV(  11) =  8.48117918181623D+01 (+/- 6.4D+01)    PS= 1.4D-03   PC=  1.9D-03
+   PV(  12) =  5.83780235319070D+02 (+/- 1.2D+02)    PS= 5.2D-03   PC=  3.8D-03
+   PV(  13) =  1.51869928413371D+03 (+/- 4.8D+02)    PS= 1.9D-02   PC= -2.4D-04
+   PV(  14) =  1.37402149772587D+03 (+/- 8.4D+02)    PS= 6.7D-02   PC= -5.5D-03
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.285    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17843.013    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.960    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.714    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.997    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.665    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.712    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.265    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.582    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11299.050    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.189    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.6527    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.2432    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.9279    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.8681    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.4608    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.4013    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.7774    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.2153    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.1163    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2684.0633    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5824    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.285    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17843.013    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.960    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.714    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.997    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.665    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.712    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.265    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.582    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11299.050    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.189    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.6527    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.2432    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.9279    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.8681    
+                WF(first)/WF(Max)= 0.32D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.4608    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.4013    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.7774    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.2153    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.1163    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2684.0633    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5824    
+                WF(first)/WF(Max)= 0.69D-03  suggests  RMIN  may be too large
+ After Cycle # 5:  DRMSD= 1.0388910D-02    test(PS)= 9.4D+00   test(PU)= 1.7D-02
+   PV(   1) =  2.66408231234332D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  7.4D-06
+   PV(   2) =  1.78999802564410D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  1.9D-06
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71672469825195D-01 (+/- 4.6D-03)    PS= 1.6D-06   PC=  1.7D-06
+   PV(   7) =  2.28236733143341D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  6.4D-06
+   PV(   8) =  6.09509821376584D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  9.1D-06
+   PV(   9) =  1.08640657875980D+01 (+/- 2.8D+00)    PS= 9.7D-05   PC= -4.1D-07
+   PV(  10) =  1.15093779750304D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  1.2D-04
+   PV(  11) =  8.48127111287208D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  9.2D-04
+   PV(  12) =  5.83782065701726D+02 (+/- 1.2D+02)    PS= 5.1D-03   PC=  1.8D-03
+   PV(  13) =  1.51869908689496D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -2.0D-04
+   PV(  14) =  1.37401875283160D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -2.7D-03
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.270    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.996    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.941    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.694    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.975    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.641    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.686    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.237    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.552    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11299.019    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.156    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.6179    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.2068    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8901    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.8291    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.4206    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3602    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.7354    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1728    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0736    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2684.0208    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5408    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.270    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.996    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.941    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.694    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.975    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.641    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.686    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.237    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.552    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11299.019    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.156    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.6179    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.2068    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8901    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.8291    
+                WF(first)/WF(Max)= 0.32D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.4206    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3602    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.7354    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1728    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0736    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2684.0208    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5408    
+                WF(first)/WF(Max)= 0.69D-03  suggests  RMIN  may be too large
+ After Cycle # 6:  DRMSD= 1.0323292D-02    test(PS)= 4.6D+00   test(PU)= 8.2D-03
+   PV(   1) =  2.66408231253570D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  1.9D-06
+   PV(   2) =  1.78999895871692D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  9.3D-07
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71673278969754D-01 (+/- 4.6D-03)    PS= 1.5D-06   PC=  8.1D-07
+   PV(   7) =  2.28237046227960D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  3.1D-06
+   PV(   8) =  6.09510262467180D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  4.4D-06
+   PV(   9) =  1.08640655889823D+01 (+/- 2.8D+00)    PS= 9.6D-05   PC= -2.0D-07
+   PV(  10) =  1.15094375535380D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  6.0D-05
+   PV(  11) =  8.48131585143739D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  4.5D-04
+   PV(  12) =  5.83782956413859D+02 (+/- 1.2D+02)    PS= 5.1D-03   PC=  8.9D-04
+   PV(  13) =  1.51869899084573D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -9.6D-05
+   PV(  14) =  1.37401741705190D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -1.3D-03
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.262    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.988    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.932    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.684    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.964    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.629    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.673    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.223    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.537    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11299.003    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.140    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.6009    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1891    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8718    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.8101    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.4011    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3401    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.7150    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1521    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0528    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2684.0001    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5205    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.262    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.988    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.932    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.684    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.964    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.629    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.673    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.223    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.537    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11299.003    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.140    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.6009    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1891    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8718    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.8101    
+                WF(first)/WF(Max)= 0.31D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.4011    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3401    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.7150    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1521    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0528    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2684.0001    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5205    
+                WF(first)/WF(Max)= 0.68D-03  suggests  RMIN  may be too large
+ After Cycle # 7:  DRMSD= 1.0307690D-02    test(PS)= 2.2D+00   test(PU)= 4.0D-03
+   PV(   1) =  2.66408231258946D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  5.4D-07
+   PV(   2) =  1.78999941281225D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  4.5D-07
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71673672742482D-01 (+/- 4.6D-03)    PS= 1.5D-06   PC=  3.9D-07
+   PV(   7) =  2.28237198597824D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  1.5D-06
+   PV(   8) =  6.09510477137666D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  2.1D-06
+   PV(   9) =  1.08640654923118D+01 (+/- 2.8D+00)    PS= 9.6D-05   PC= -9.7D-08
+   PV(  10) =  1.15094665484300D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  2.9D-05
+   PV(  11) =  8.48133762434940D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  2.2D-04
+   PV(  12) =  5.83783389897180D+02 (+/- 1.2D+02)    PS= 5.0D-03   PC=  4.3D-04
+   PV(  13) =  1.51869894409959D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -4.7D-05
+   PV(  14) =  1.37401676696293D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -6.5D-04
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.259    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.984    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.927    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.679    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.958    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.623    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.667    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.216    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.530    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.996    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.132    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5927    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1805    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8628    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.8008    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3915    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3304    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.7051    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1421    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0427    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9901    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5106    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.259    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.984    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.927    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.679    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.958    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.623    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.667    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.216    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.530    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.996    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.132    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5927    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1805    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8628    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.8008    
+                WF(first)/WF(Max)= 0.31D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3915    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3304    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.7051    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1421    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0427    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9901    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5106    
+                WF(first)/WF(Max)= 0.68D-03  suggests  RMIN  may be too large
+ After Cycle # 8:  DRMSD= 1.0303991D-02    test(PS)= 1.1D+00   test(PU)= 1.9D-03
+   PV(   1) =  2.66408231260617D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  1.7D-07
+   PV(   2) =  1.78999963380625D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  2.2D-07
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71673864376775D-01 (+/- 4.6D-03)    PS= 1.5D-06   PC=  1.9D-07
+   PV(   7) =  2.28237272751953D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  7.4D-07
+   PV(   8) =  6.09510581612631D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  1.0D-06
+   PV(   9) =  1.08640654452659D+01 (+/- 2.8D+00)    PS= 9.6D-05   PC= -4.7D-08
+   PV(  10) =  1.15094806593377D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  1.4D-05
+   PV(  11) =  8.48134822057147D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  1.1D-04
+   PV(  12) =  5.83783600860740D+02 (+/- 1.2D+02)    PS= 5.0D-03   PC=  2.1D-04
+   PV(  13) =  1.51869892134986D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -2.3D-05
+   PV(  14) =  1.37401645058376D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -3.2D-04
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.257    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.982    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.925    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.676    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.956    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.620    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.664    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.213    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.527    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.992    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.128    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5887    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1763    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8585    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7963    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3869    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3256    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.7002    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1372    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0377    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9852    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5058    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.257    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.982    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.925    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.676    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.956    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.620    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.664    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.213    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.527    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.992    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.128    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5887    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1763    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8585    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7963    
+                WF(first)/WF(Max)= 0.31D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3869    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3256    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.7002    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1372    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0377    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9852    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5058    
+                WF(first)/WF(Max)= 0.68D-03  suggests  RMIN  may be too large
+ After Cycle # 9:  DRMSD= 1.0303115D-02    test(PS)= 5.3D-01   test(PU)= 9.5D-04
+   PV(   1) =  2.66408231261207D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  5.9D-08
+   PV(   2) =  1.78999974135735D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  1.1D-07
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71673957638787D-01 (+/- 4.6D-03)    PS= 1.5D-06   PC=  9.3D-08
+   PV(   7) =  2.28237308840642D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  3.6D-07
+   PV(   8) =  6.09510632457780D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  5.1D-07
+   PV(   9) =  1.08640654223680D+01 (+/- 2.8D+00)    PS= 9.6D-05   PC= -2.3D-08
+   PV(  10) =  1.15094875266963D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  6.9D-06
+   PV(  11) =  8.48135337744639D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  5.2D-05
+   PV(  12) =  5.83783703530561D+02 (+/- 1.2D+02)    PS= 5.0D-03   PC=  1.0D-04
+   PV(  13) =  1.51869891027770D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -1.1D-05
+   PV(  14) =  1.37401629661031D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -1.5D-04
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.256    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.981    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.924    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.675    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.954    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.619    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.662    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.212    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.525    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.990    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.126    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5867    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1743    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8563    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7941    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3846    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3233    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.6979    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1348    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0354    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9828    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5035    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.256    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.981    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.924    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.675    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.954    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.619    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.662    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.212    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.525    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.990    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.126    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5867    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1743    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8563    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7941    
+                WF(first)/WF(Max)= 0.31D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3846    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3233    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.6979    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1348    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0354    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9828    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5035    
+                WF(first)/WF(Max)= 0.68D-03  suggests  RMIN  may be too large
+ After Cycle #10:  DRMSD= 1.0302907D-02    test(PS)= 2.6D-01   test(PU)= 4.6D-04
+   PV(   1) =  2.66408231261442D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  2.3D-08
+   PV(   2) =  1.78999979369928D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  5.2D-08
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71674003026494D-01 (+/- 4.6D-03)    PS= 1.5D-06   PC=  4.5D-08
+   PV(   7) =  2.28237326403966D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  1.8D-07
+   PV(   8) =  6.09510657202694D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  2.5D-07
+   PV(   9) =  1.08640654112228D+01 (+/- 2.8D+00)    PS= 9.6D-05   PC= -1.1D-08
+   PV(  10) =  1.15094908688317D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  3.3D-06
+   PV(  11) =  8.48135588714703D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  2.5D-05
+   PV(  12) =  5.83783753497012D+02 (+/- 1.2D+02)    PS= 5.0D-03   PC=  5.0D-05
+   PV(  13) =  1.51869890488921D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -5.4D-06
+   PV(  14) =  1.37401622167584D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -7.5D-05
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.256    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.980    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.924    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.675    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.954    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.618    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.662    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.211    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.524    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.990    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.125    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5858    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1733    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8553    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7930    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3835    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3222    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.6967    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1336    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0342    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9816    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5024    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.256    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.980    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.924    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.675    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.954    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.618    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.662    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.211    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.524    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.990    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.125    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5858    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1733    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8553    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7930    
+                WF(first)/WF(Max)= 0.31D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3835    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3222    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.6967    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1336    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0342    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9816    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5024    
+                WF(first)/WF(Max)= 0.68D-03  suggests  RMIN  may be too large
+ After Cycle #11:  DRMSD= 1.0302858D-02    test(PS)= 1.3D-01   test(PU)= 2.2D-04
+   PV(   1) =  2.66408231261543D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  1.0D-08
+   PV(   2) =  1.78999981917255D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  2.5D-08
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71674025115318D-01 (+/- 4.6D-03)    PS= 1.5D-06   PC=  2.2D-08
+   PV(   7) =  2.28237334951524D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  8.5D-08
+   PV(   8) =  6.09510669245360D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  1.2D-07
+   PV(   9) =  1.08640654058000D+01 (+/- 2.8D+00)    PS= 9.6D-05   PC= -5.4D-09
+   PV(  10) =  1.15094924953467D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  1.6D-06
+   PV(  11) =  8.48135710854148D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  1.2D-05
+   PV(  12) =  5.83783777814208D+02 (+/- 1.2D+02)    PS= 5.0D-03   PC=  2.4D-05
+   PV(  13) =  1.51869890226702D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -2.6D-06
+   PV(  14) =  1.37401618520776D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -3.6D-05
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.255    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.980    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.923    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.674    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.954    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.618    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.661    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.210    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.524    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.989    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.125    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5853    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1728    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8548    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7925    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3830    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3216    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.6962    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1331    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0336    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9810    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5018    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.255    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.980    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.923    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.674    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.954    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.618    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.661    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.210    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.524    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.989    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.125    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5853    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1728    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8548    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7925    
+                WF(first)/WF(Max)= 0.31D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3830    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3216    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.6962    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1331    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0336    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9810    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5018    
+                WF(first)/WF(Max)= 0.68D-03  suggests  RMIN  may be too large
+ After Cycle #12:  DRMSD= 1.0302846D-02    test(PS)= 6.1D-02   test(PU)= 1.1D-04
+   PV(   1) =  2.66408231261589D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  4.6D-09
+   PV(   2) =  1.78999983156964D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  1.2D-08
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71674035865294D-01 (+/- 4.6D-03)    PS= 1.5D-06   PC=  1.1D-08
+   PV(   7) =  2.28237339111369D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  4.2D-08
+   PV(   8) =  6.09510675106150D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  5.9D-08
+   PV(   9) =  1.08640654031612D+01 (+/- 2.8D+00)    PS= 9.6D-05   PC= -2.6D-09
+   PV(  10) =  1.15094932869315D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  7.9D-07
+   PV(  11) =  8.48135770295935D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  5.9D-06
+   PV(  12) =  5.83783789648622D+02 (+/- 1.2D+02)    PS= 5.0D-03   PC=  1.2D-05
+   PV(  13) =  1.51869890099075D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -1.3D-06
+   PV(  14) =  1.37401616745977D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -1.8D-05
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.255    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.980    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.923    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.674    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.953    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.618    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.661    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.210    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.524    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.989    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.125    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5851    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1726    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8546    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7923    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3828    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3214    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.6959    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1328    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0333    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9808    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5015    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.255    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.980    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.923    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.674    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.953    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.618    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.661    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.210    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.524    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.989    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.125    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5851    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1726    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8546    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7923    
+                WF(first)/WF(Max)= 0.31D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3828    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3214    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.6959    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1328    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0333    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9808    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5015    
+                WF(first)/WF(Max)= 0.68D-03  suggests  RMIN  may be too large
+ After Cycle #13:  DRMSD= 1.0302844D-02    test(PS)= 3.0D-02   test(PU)= 5.3D-05
+   PV(   1) =  2.66408231261611D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  2.2D-09
+   PV(   2) =  1.78999983760295D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  6.0D-09
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71674041096991D-01 (+/- 4.6D-03)    PS= 1.5D-06   PC=  5.2D-09
+   PV(   7) =  2.28237341135850D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  2.0D-08
+   PV(   8) =  6.09510677958442D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  2.9D-08
+   PV(   9) =  1.08640654018744D+01 (+/- 2.8D+00)    PS= 9.6D-05   PC= -1.3D-09
+   PV(  10) =  1.15094936721655D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  3.9D-07
+   PV(  11) =  8.48135799224974D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  2.9D-06
+   PV(  12) =  5.83783795408205D+02 (+/- 1.2D+02)    PS= 5.0D-03   PC=  5.8D-06
+   PV(  13) =  1.51869890036937D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -6.2D-07
+   PV(  14) =  1.37401615882168D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -8.6D-06
+ Find  2  potential minima:   Vmin= -26640.047     -1.162
+               at mesh points   R =    1.79000    9.84800
+ Find  2  potential maxima:   Vmax=      0.311     -1.158
+               at mesh points   R =    2.80300   10.00000
+ *** CAUTION *** For  J=  0  E= -18664.255    
+                WF(first)/WF(Max)=-0.12D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.980    
+                WF(first)/WF(Max)= 0.31D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.923    
+                WF(first)/WF(Max)=-0.76D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.674    
+                WF(first)/WF(Max)= 0.18D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.953    
+                WF(first)/WF(Max)=-0.40D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.618    
+                WF(first)/WF(Max)= 0.86D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.661    
+                WF(first)/WF(Max)=-0.18D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.210    
+                WF(first)/WF(Max)= 0.37D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.524    
+                WF(first)/WF(Max)=-0.75D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.989    
+                WF(first)/WF(Max)= 0.15D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.124    
+                WF(first)/WF(Max)=-0.28D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5850    
+                WF(first)/WF(Max)= 0.50D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1725    
+                WF(first)/WF(Max)=-0.91D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8544    
+                WF(first)/WF(Max)= 0.16D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7921    
+                WF(first)/WF(Max)=-0.27D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3826    
+                WF(first)/WF(Max)= 0.44D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3212    
+                WF(first)/WF(Max)=-0.72D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.6958    
+                WF(first)/WF(Max)= 0.11D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1327    
+                WF(first)/WF(Max)=-0.17D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0332    
+                WF(first)/WF(Max)= 0.25D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9806    
+                WF(first)/WF(Max)=-0.37D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5014    
+                WF(first)/WF(Max)= 0.51D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -18664.255    
+                WF(first)/WF(Max)= 0.14D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17842.980    
+                WF(first)/WF(Max)= 0.34D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -17022.923    
+                WF(first)/WF(Max)= 0.85D-08  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -16203.674    
+                WF(first)/WF(Max)= 0.20D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -15384.953    
+                WF(first)/WF(Max)= 0.45D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -14566.618    
+                WF(first)/WF(Max)= 0.99D-07  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -13748.661    
+                WF(first)/WF(Max)= 0.20D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12931.210    
+                WF(first)/WF(Max)= 0.43D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -12114.524    
+                WF(first)/WF(Max)= 0.85D-06  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -11298.989    
+                WF(first)/WF(Max)= 0.17D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -10485.124    
+                WF(first)/WF(Max)= 0.32D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -9673.5850    
+                WF(first)/WF(Max)= 0.57D-05  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8865.1725    
+                WF(first)/WF(Max)= 0.10D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -8060.8544    
+                WF(first)/WF(Max)= 0.19D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -7261.7921    
+                WF(first)/WF(Max)= 0.31D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -6469.3826    
+                WF(first)/WF(Max)= 0.52D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -5685.3212    
+                WF(first)/WF(Max)= 0.86D-04  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4911.6958    
+                WF(first)/WF(Max)= 0.14D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -4151.1327    
+                WF(first)/WF(Max)= 0.22D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -3407.0332    
+                WF(first)/WF(Max)= 0.33D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -2683.9806    
+                WF(first)/WF(Max)= 0.49D-03  suggests  RMIN  may be too large
+ *** CAUTION *** For  J=  0  E= -1988.5014    
+                WF(first)/WF(Max)= 0.68D-03  suggests  RMIN  may be too large
+ After Cycle #14:  DRMSD= 1.0302843D-02    test(PS)= 1.4D-02   test(PU)= 2.6D-05
+   PV(   1) =  2.66408231261622D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  1.1D-09
+   PV(   2) =  1.78999984053918D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  2.9D-09
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71674043643102D-01 (+/- 4.6D-03)    PS= 1.5D-06   PC=  2.5D-09
+   PV(   7) =  2.28237342121094D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  9.9D-09
+   PV(   8) =  6.09510679346567D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  1.4D-08
+   PV(   9) =  1.08640654012543D+01 (+/- 2.8D+00)    PS= 9.6D-05   PC= -6.2D-10
+   PV(  10) =  1.15094938596544D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  1.9D-07
+   PV(  11) =  8.48135813302648D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  1.4D-06
+   PV(  12) =  5.83783798211015D+02 (+/- 1.2D+02)    PS= 5.0D-03   PC=  2.8D-06
+   PV(  13) =  1.51869890006774D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -3.0D-07
+   PV(  14) =  1.37401615461939D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -4.2D-06
+
+ Full 14-cycle convergence:  {ABS(RMSR/RMSRB)-1}= 6.33D-08  TSTPS= 1.4D-02
+
+    21 data fit to   11 param. yields  DRMS(devn)= 1.0302843D-02  tst(PS)= 1.4D-02
+   PV(   1) =  2.66408231261622D+04 (+/- 3.6D+00)    PS= 3.1D-02   PC=  1.1D-09
+   PV(   2) =  1.78999984053918D+00 (+/- 1.1D-04)    PS= 2.0D-07   PC=  2.9D-09
+   PV(   3) =  3.51814703537800D+06 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   4) =  4.72347299036600D+07 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   5) =  6.81240774700000D+04 (+/- 0.0D+00)    PS= 0.0D+00   PC=  0.0D+00
+   PV(   6) =  4.71674043643102D-01 (+/- 4.6D-03)    PS= 1.5D-06   PC=  2.5D-09
+   PV(   7) =  2.28237342121094D+00 (+/- 5.4D-02)    PS= 6.3D-06   PC=  9.9D-09
+   PV(   8) =  6.09510679346567D+00 (+/- 3.7D-01)    PS= 2.5D-05   PC=  1.4D-08
+   PV(   9) =  1.08640654012543D+01 (+/- 2.8D+00)    PS= 9.6D-05   PC= -6.2D-10
+   PV(  10) =  1.15094938596544D+01 (+/- 1.1D+01)    PS= 3.7D-04   PC=  1.9D-07
+   PV(  11) =  8.48135813302648D+01 (+/- 6.2D+01)    PS= 1.4D-03   PC=  1.4D-06
+   PV(  12) =  5.83783798211015D+02 (+/- 1.2D+02)    PS= 5.0D-03   PC=  2.8D-06
+   PV(  13) =  1.51869890006774D+03 (+/- 4.7D+02)    PS= 1.8D-02   PC= -3.0D-07
+   PV(  14) =  1.37401615461939D+03 (+/- 8.2D+02)    PS= 6.5D-02   PC= -4.2D-06
+
+ ========================================================================
+ Fitting   11  free parameters to    21  transitions yields  DSE= 0.14930238E-01
+ ========================================================================
+ ==============================================================================
+
+ State 1X  represented by an MLR(p=**, q=**) potential defined in terms of
+ ========  exponent coefficient:  beta(R)= betaINF*y* +(1-y*)*Sum{beta_i*y*^i}
+                                                              for  i= 0 to  8
+        with radial variable:   y_{p,q} = (R^q - 1.790000^q)/(R^q + 1.790000^q)
+    uLR inverse-power terms incorporate DS-type damping with   rhoAB= 1.0000000
+           defined to give very short-range  Dm(r)*Cm/r^m  behaviour   r^{-1.0}
+        Dm(r)= [1 - exp(- 3.30(rhoAB*r)/m - 0.423(rhoAB*r)^2/sqrt{m})]^{m-1.0}
+                                                C6= 3.5181470D+06[cm-1 Ang^6]
+                                                C8= 4.7234730D+07[cm-1 Ang^8]
+                                               C10= 6.8124077D+04[cm-1 Ang^{10}]
+                    These constants yield:   betaINF= -0.2778105110
+
+    Since this state has (projected) electronic angular momentum  OMEGA=-2
+          eigenvalue calculations use centrifugal potential  [J*(J+1) - 4]/r**2
+
+ Including BOB term makes centrifugal potential strength factor   [J(J+1) + 2]
+
+   Parameter      Final Value    Uncertainty   Sensitivity
+    VLIM      0.000000000000D+00       --            --
+      De      2.664082312616D+04    3.6D+00       3.1D-02
+      Re      1.789999840539D+00    1.1D-04       2.0D-07
+     C 6      3.518147035378D+06       --            --
+     C 8      4.723472990366D+07       --            --
+     C10      6.812407747000D+04       --            --
+   beta( 0)   4.716740436431D-01    4.6D-03       1.5D-06
+   beta( 1)   2.282373421211D+00    5.4D-02       6.3D-06
+   beta( 2)   6.095106793466D+00    3.7D-01       2.5D-05
+   beta( 3)   1.086406540125D+01    2.8D+00       9.6D-05
+   beta( 4)   1.150949385965D+01    1.1D+01       3.7D-04
+   beta( 5)   8.481358133026D+01    6.2D+01       1.4D-03
+   beta( 6)   5.837837982110D+02    1.2D+02       5.0D-03
+   beta( 7)   1.518698900068D+03    4.7D+02       1.8D-02
+   beta( 8)   1.374016154619D+03    8.2D+02       6.5D-02
+   beta_INF  -2.778105109563D-01       --            --
+   C**{exp}  -4.645977816101D+11       --            --
+ ==============================================================================
+
+ ===============================================================
+  *** Discrepancies for    1 bands/series of  Y( 89)- O( 16) ***
+ ===============================================================
+
+ =======================================================
+   21  State 1X    Y( 89)- O( 16)  Potential fx. values
+ ========================================== Avge. ====
+     #data    Av.Unc.    Max.Unc.    Err/Unc   DRMSD
+ ----------------------------------------------------
+       21    0.00D+00    0.00D+00    0.00235   0.010
+ ================================================ calc-obs
+       R       V(r)        u(V(r))   calc-obs   /u(V(r))
+ -----------------------------------------------------
+   1.400000    14261.50  10000.00     -5.788     -0.001
+   1.450000     2119.55   1000.00      0.476      0.000
+   1.500000    -7261.57    150.00     -0.030     -0.000
+   1.550000   -14338.23    150.00     -0.005     -0.000
+   1.600000   -19489.75    150.00      0.203      0.001
+   1.650000   -23037.93    150.00     -0.453     -0.003
+   1.700000   -25258.21    150.00      0.263      0.002
+   1.750000   -26386.56    150.00      0.451      0.003
+   1.800000   -26624.62    150.00     -0.658     -0.004
+   1.850000   -26144.03    150.00     -0.325     -0.002
+   1.900000   -25090.29    150.00      1.174      0.008
+   1.950000   -23585.70    150.00     -0.536     -0.004
+   2.000000   -21730.07    150.00     -0.437     -0.003
+   2.050000   -19590.26   1500.00     25.123      0.017
+   2.100000   -17115.15   1500.00     34.744      0.023
+   2.150000   -14223.31   1500.00    -30.154     -0.020
+   2.200000   -11197.94  15000.00     65.330      0.004
+   2.250000    -8198.87  15000.00    273.772      0.018
+   2.300000    -5299.74  15000.00    303.227      0.020
+   2.350000    -2554.42  15000.00   -162.383     -0.011
+   2.400000        0.00**********  -1248.220     -0.000
+
+ ==============================================================================
+ Fit of     11 total param to     21 data yields   DRMS(devn.)= 0.10302843E-01
+ ==============================================================================
